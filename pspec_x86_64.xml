@@ -1,0 +1,59 @@
+<PISI>
+    <Source>
+        <Name>ruby-gssapi</Name>
+        <Packager>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.ruby</PartOf>
+        <Summary xml:lang="en">RubyGem - gssapi</Summary>
+        <Description xml:lang="en">A FFI wrapper around the system GSSAPI library. Please make sure and read the Yard docs or standard GSSAPI documentation if you have any questions. There is also a class called GSSAPI::Simple that wraps many of the common features used for GSSAPI.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>ruby-gssapi</Name>
+        <Summary xml:lang="en">RubyGem - gssapi</Summary>
+        <Description xml:lang="en">A FFI wrapper around the system GSSAPI library. Please make sure and read the Yard docs or standard GSSAPI documentation if you have any questions. There is also a class called GSSAPI::Simple that wraps many of the common features used for GSSAPI.
+</Description>
+        <PartOf>programming.ruby</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/build_info</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/gssapi-1.2.0/COPYING</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/gssapi-1.2.0/Changelog.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/gssapi-1.2.0/Gemfile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/gssapi-1.2.0/README.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/gssapi-1.2.0/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/gssapi-1.2.0/VERSION</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/gssapi-1.2.0/examples/gss_client.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/gssapi-1.2.0/examples/gss_iov_client.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/gssapi-1.2.0/examples/gss_iov_helpers.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/gssapi-1.2.0/examples/gss_iov_server.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/gssapi-1.2.0/examples/gss_server.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/gssapi-1.2.0/gssapi.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/gssapi-1.2.0/lib/gssapi.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/gssapi-1.2.0/lib/gssapi/exceptions.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/gssapi-1.2.0/lib/gssapi/extensions.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/gssapi-1.2.0/lib/gssapi/heimdal.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/gssapi-1.2.0/lib/gssapi/lib_gssapi.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/gssapi-1.2.0/lib/gssapi/lib_gssapi_loader.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/gssapi-1.2.0/lib/gssapi/simple.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/gssapi-1.2.0/preamble</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/gssapi-1.2.0/test/spec/gssapi_simple_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/gssapi-1.2.0/test/spec/test_buffer_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/specifications/gssapi-1.2.0.gemspec</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-03-23</Date>
+            <Version>1.2.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
