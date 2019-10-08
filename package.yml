@@ -1,6 +1,6 @@
 name       : ruby-gssapi
 version    : 1.2.0
-release    : 2
+release    : 3
 source     :
     - https://rubygems.org/downloads/gssapi-1.2.0.gem : 3d0e3222f36532c1ab3b7eaab171ad4245889edc5439a5483ff714999cb62349
 license    : MIT
